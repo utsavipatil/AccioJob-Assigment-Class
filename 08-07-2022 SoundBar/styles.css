@@ -1,0 +1,30 @@
+/* * {
+    border-box : box-sizing;
+} */
+body{
+    background-color: #a164df;
+    margin: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: #663399;
+    color: white;
+    padding: 1.5rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    margin-right: 2rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
