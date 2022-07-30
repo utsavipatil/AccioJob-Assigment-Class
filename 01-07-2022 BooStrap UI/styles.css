@@ -1,0 +1,236 @@
+/* Header Section */
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+}
+.navbar-brand > span{
+    color: aqua;
+}
+/* Bootstrap user Interface */
+.headerImage{
+    background-image: url("images/image2.jpg");
+    background-size: cover; /* When size change image also change accordingly */
+    background-attachment: fixed;
+    height: 31.25rem;
+}
+.headingText{
+    /* height: 50vh; */
+    padding-top: 10%;
+    font-family: 'Righteous', cursive;
+}
+.headerImage > p{
+    font-family: 'Righteous', cursive;
+}
+/* Features Section */
+.card-container{
+    margin: 0 auto;
+    width: 65vw;
+    padding: 2% 0;
+}
+.card-container > p{
+    width: 90%;
+    margin: 2% auto;
+}
+/* Like & Share */
+.share{
+    background-image: url(images/image3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40rem;
+    color: white;
+}
+.share > h1{
+    padding-top: 15%;
+    padding-bottom: 2.5%;
+    font-family: 'Righteous', cursive;
+}
+.share > p{
+    margin-left: 15%;
+    width: 85%;
+    text-align: left;
+}
+.share > button{
+    margin-top: 4.5%;
+    margin-left: 6%;
+    width: 20rem;
+    /* border-radius: 0px; */
+}
+/* All Features */
+#Features > .container{
+    margin: 5% auto;
+}
+.feature > i{
+    color: #00C897;
+    padding-top: 50%;
+}
+.feature > .fa-user-shield{
+    margin-top: 0.8rem;
+}
+.fText > p{
+    margin-bottom: 10%;
+    padding-left: 8%;
+    /* padding-right: 5%; */
+}
+/* Join Us */
+#joinUs{
+    background-color: #383a47;
+    padding: 5%;
+    margin: 2%;
+}
+.joinImage > img{
+    height: 15rem;
+    
+}
+.joinText > p{
+    width: 50%;
+}
+.joinText{
+    padding-left: 4%;
+    color: white;
+}
+.joinText > button{
+    width: 14%;
+}
+/* Contact Us */
+#contactUs{
+    margin: 5% auto;
+}
+#contactUs > .Email{
+    padding-left: 30%;
+    padding-top: 1%;
+}
+.Email > .email{
+    width: 50%;
+}
+.Email > button{
+    box-shadow: 2px 2px 1px #8a0606;
+}
+/* Footer */
+#Footer{
+    text-align: center;
+}
+.socialMedia > .fa-facebook-f{
+    color: blue;
+}
+.socialMedia > .fa-twitter{
+    color: #00acee;
+}
+.socialMedia > .fa-instagram{
+    color: #096ee8;
+}
+.socialMedia > .fa-youtube{
+    color: red;
+}
+#Footer > hr{
+    width: 100%;
+    color: grey;
+}
+#Footer > .copyright{
+    color: #19f505;
+}
+
+
+/* 1024px Laptop */
+@media screen and (max-width : 1024px){
+    .card-container{
+        margin: 0 auto;
+        width: 82vw;
+    }
+    .card{
+        width: 15rem !important;
+        
+    }
+    .feature > i{
+        padding-top: 100%;
+        font-size: 1.3rem;
+    }
+    .joinText > button{
+        width: 20%;
+    }
+    .joinText > p{
+        width: 100%;
+    }
+}
+/* 768px Tablet */
+@media screen and (max-width : 768px){
+    .card-container{
+        margin: 0 auto;
+        width: 95vw;
+    }
+    .card{
+        width: 15rem !important;    
+    }
+    .feature > i{
+        padding-top: 100%;
+        font-size: 1.1rem;
+    }
+    .joinText > button{
+        width: 30%;
+    }
+    .joinText > p{
+        width: 100%;
+    }
+    .joinImage > img{
+        width: 99%;
+    }
+}
+/* 375px Mobile */
+@media screen and (max-width : 376px){
+    .headerImage{
+        background-image: url("images/image2.jpg");
+        background-size: cover;/* When size change image also change accordingly*/
+        height: 20rem;
+    }
+    .card-container{
+        margin: 0 auto;
+    }
+    .card-container h1{
+        font-size: 1.3rem;
+    }
+    .card-container > p{
+        font-size: 0.9rem;
+        text-align: left;
+    }
+    .card{
+        width: 20rem !important;
+        margin-bottom: 0.313rem;
+    }
+    .share > p{
+        margin: 0 auto;
+    }
+    .share > button{
+        width: 10rem;
+    }
+    .share{
+        height: 25rem;
+    }
+    .feature > i{
+        padding-top: 100%;
+        font-size: 1rem;
+    }
+    .row > .col-9{
+        font-size: 0.7rem;
+    }
+    .col-9 > h3{
+        font-size: small;
+    }
+    .joinText > h1{
+        font-size: 1.2rem;
+    }
+    .joinText > p{
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .joinImage > img{
+        width:100%;
+    }
+    #contactUs{
+        margin: 2% auto;
+    }
+    .headText > h4{
+        font-size: 1rem;
+    }
+    .Email > button{
+        font-size: 0.7rem;
+        box-shadow: 2px 2px 1px #8a0606;
+    }
+}
